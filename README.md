@@ -4,6 +4,12 @@ Open https://cstwp12-admin.github.io/SiteRecord/ in Android Chrome.
 
 Offline field notes, photographs and PDF/Word observation reports for inspectors, engineers and site personnel. This repository hosts application build files, not notebook records.
 
+## Phase 4.3 — Observation history and comparison
+
+Open **History** to retrieve saved findings across events in your current project. Filter by structure, text or an explicit location role and chainage range. Select two findings and choose **Compare selected** for their complete context, facts, assessment, discussion, references and captioned photographs. Desktop shows two columns; phone stacks the records. **Open in notebook** returns to the exact source finding.
+
+This is current saved-record history, not previous-edit history or verified before/after linkage. A/B follow selection order. Compliance and closure require review. Underlying records remain unchanged; use Reports for PDF/Word output. History works offline with the records present on this device.
+
 ## Phase 4.2 — Faster repeat work
 
 Reports now offer named saved report settings, named saved filters and a remembered report type. Event and observation editors offer explicitly selected recent locations, separated by venue, affected location and sample origin. Filters leave report selection unchanged; review the hidden-selection warning. Report settings never save finding selections or issued report references.
@@ -20,4 +26,4 @@ Start with the synthetic training example and wait for **Application available o
 
 Records stay in browser storage. Keep downloaded backups separately. Work on one device at a time and use reviewed event packages for handover; there is no live synchronisation. Actual Android annotation acceptance remains pending.
 
-Phase 4.2 build prepared 25 November 2026. Package SHA-256: `a3d7e0d8d38ad7c7c2c74c20fccdde9b260cf2dbea3bec855a6b69a9515d9584`. Previous hashed application assets are retained for cached clients; the current worker precaches only this build.
+Phase 4.3 build prepared 25 November 2026. Package SHA-256: `60ce697ecf2e19255d77dfe4c57e899c87188eaae93e1504d3b6a9a8b793f3b4`. Previous hashed application assets are retained for cached clients; the current worker precaches only this build.
