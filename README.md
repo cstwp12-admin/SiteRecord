@@ -4,6 +4,12 @@ Open https://cstwp12-admin.github.io/SiteRecord/ in Android Chrome.
 
 Offline field notes, photographs and PDF/Word observation reports for inspectors, engineers and site personnel. This repository hosts application build files, not notebook records.
 
+## Phase 5.1 — Linked follow-up and response records
+
+Open a saved finding and use **Follow-up & responses**. Choose an existing event (create a revisit event first if needed) and category, then **Start linked record**. Record later facts, photos, an optional party and target date. The new record starts empty and retains a fixed reference to its source. Backlinks open the exact source/child. PDF and Word reports include the reference when the linked record is selected. No delivery, compliance or closure is implied.
+
+**Compatibility:** Save/close editors and download a backup before updating. Update every open tab and both devices. This release atomically upgrades the local record store and guards it against earlier application writers. Do not downgrade afterward. Linked-content backups/event packages use version 2; this release reads versions 1 and 2. Source events are not automatically disclosed in a linked event package; the import preview warns about absent editable source findings. Verification outcomes and memo assembly remain later checkpoints.
+
 ## Phase 4.3 — Observation history and comparison
 
 Open **History** to retrieve saved findings across events in your current project. Filter by structure, text or an explicit location role and chainage range. Select two findings and choose **Compare selected** for their complete context, facts, assessment, discussion, references and captioned photographs. Desktop shows two columns; phone stacks the records. **Open in notebook** returns to the exact source finding.
@@ -26,4 +32,4 @@ Start with the synthetic training example and wait for **Application available o
 
 Records stay in browser storage. Keep downloaded backups separately. Work on one device at a time and use reviewed event packages for handover; there is no live synchronisation. Actual Android annotation acceptance remains pending.
 
-Phase 4.3 build prepared 25 November 2026. Package SHA-256: `60ce697ecf2e19255d77dfe4c57e899c87188eaae93e1504d3b6a9a8b793f3b4`. Previous hashed application assets are retained for cached clients; the current worker precaches only this build.
+Phase 5.1 build prepared 25 November 2026. Package SHA-256: `2dfd1edc1ae671a7c8122adb561e743c541bf0638a01125164f6496205a12ca0`. Previous hashed application assets are retained for cached clients; the current worker precaches only this build.
