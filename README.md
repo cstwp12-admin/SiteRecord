@@ -4,6 +4,14 @@ Open https://cstwp12-admin.github.io/SiteRecord/ in Android Chrome.
 
 Offline field notes, photographs and PDF/Word observation reports for inspectors, engineers and site personnel. This repository hosts application build files, not notebook records.
 
+## Phase 5.2 — Verification outcomes and outstanding register
+
+On an original finding, choose the event and **Record verification**. Record outcome, verifier, date and written basis, then mark the check Reviewed only after review. Reviewed verification records are retained; corrections/reopening use a new check. A response alone never resolves a finding. Changed, conflicting or known missing context requires recheck; restore known missing references before verifying again.
+
+Open **History → Outstanding findings** for the attention register. Prepare a report for the current view to retain dated status, verifier references and full verification notes in PDF/Word. Review all notes before sharing. Status is based on records present in this notebook, not authenticated approval or contractual close-out.
+
+**Compatibility:** save/close editors and download a backup before updating. Refresh every tab and update both devices; do not downgrade an upgraded notebook. The atomic record-store migration protects new reports from older readers/writers. New verification/register packages use version 3; this app reads 1/2/3. Android physical acceptance and Phase 5.3 memo assembly remain pending.
+
 ## Phase 5.1 — Linked follow-up and response records
 
 Open a saved finding and use **Follow-up & responses**. Choose an existing event (create a revisit event first if needed) and category, then **Start linked record**. Record later facts, photos, an optional party and target date. The new record starts empty and retains a fixed reference to its source. Backlinks open the exact source/child. PDF and Word reports include the reference when the linked record is selected. No delivery, compliance or closure is implied.
@@ -32,4 +40,4 @@ Start with the synthetic training example and wait for **Application available o
 
 Records stay in browser storage. Keep downloaded backups separately. Work on one device at a time and use reviewed event packages for handover; there is no live synchronisation. Actual Android annotation acceptance remains pending.
 
-Phase 5.1 build prepared 25 November 2026. Package SHA-256: `2dfd1edc1ae671a7c8122adb561e743c541bf0638a01125164f6496205a12ca0`. Previous hashed application assets are retained for cached clients; the current worker precaches only this build.
+Phase 5.2 build prepared 25 November 2026. Package SHA-256: `85faf8621c9e6614f5d65ddb458dfab005f3007f4efb5f8bd2a5d4ea4fa996b1`. Previous hashed application assets are retained for cached clients; the current worker precaches only this build.
